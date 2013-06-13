@@ -91,7 +91,9 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
-    <Content Include="Scripts\FormularioActividades.aspx" />
+    <Content Include="FormularioActividades.aspx" />
+    <Content Include="FormularioRol.aspx" />
+    <Content Include="FormularioTipoAvtividad.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -149,6 +151,20 @@
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FormularioRol.aspx.designer.vb">
+      <DependentUpon>FormularioRol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRol.aspx.vb">
+      <DependentUpon>FormularioRol.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FormularioTipoAvtividad.aspx.designer.vb">
+      <DependentUpon>FormularioTipoAvtividad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioTipoAvtividad.aspx.vb">
+      <DependentUpon>FormularioTipoAvtividad.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -171,10 +187,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Scripts\FormularioActividades.aspx.designer.vb">
+    <Compile Include="FormularioActividades.aspx.designer.vb">
       <DependentUpon>FormularioActividades.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Scripts\FormularioActividades.aspx.vb">
+    <Compile Include="FormularioActividades.aspx.vb">
       <DependentUpon>FormularioActividades.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
